@@ -2,13 +2,15 @@
 
 Database Engine is a database management system DBMS developed using bash
 
+
 # Contributers
 
-Sherif Essam
-Mohamed Shabaan
+- Sherif Essam
+- Mohamed Shabaan
 
 
 # Installation
+
     if you have git installed in your device:
         mkdir DBEngine
         cd ./DBEngine
@@ -20,6 +22,7 @@ Mohamed Shabaan
         extract DBEngineUsingBash
         cd DBEngineUsingBash
         start.sh
+
 
 # Engine Functionalities
 
@@ -39,7 +42,6 @@ Mohamed Shabaan
 - Select from Table
 - Delete from Table
 - Update Table
-
 
 
 # Screenshot

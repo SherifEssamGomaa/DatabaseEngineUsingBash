@@ -11,17 +11,17 @@ Database Engine is a database management system DBMS developed using bash
 
 # Installation
 
-    if you have git installed in your device:
-        mkdir DBEngine
-        cd ./DBEngine
-        git clone https://github.com/SherifEssamGomaa/DatabaseEngineUsingBash
-        start.sh
+* if you have git installed in your device:
+    * mkdir DBEngine
+    * cd ./DBEngine
+    * git clone https://github.com/SherifEssamGomaa/DatabaseEngineUsingBash
+    * start.sh
 
-    if you don't have git:
-        press "<span style="color:green">Code</span>" button then chose "Download ZIP"
-        extract DBEngineUsingBash
-        cd DBEngineUsingBash
-        start.sh
+* if you don't have git:
+    * press "<span style="color:green">Code</span>" button then chose "Download ZIP"
+    * extract DBEngineUsingBash
+    * cd DBEngineUsingBash
+    * start.sh
 
 
 # Engine Functionalities

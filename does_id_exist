@@ -1,0 +1,20 @@
+#!/bin/bash
+export LC_COLLATE=C
+shopt -s extglob
+
+mypath=$1
+id=$2
+ret=$(awk -v idd=$id '
+    BEGIN{FS=" ";} 
+    {
+        if ($1==idd)
+            print 1
+    }
+    END{}
+' $mypath)
+if [[ "$ret" = 1 && "$id" != "" ]]
+then
+    echo "true"
+else
+    echo "false"
+fi

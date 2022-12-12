@@ -1,0 +1,11 @@
+#!/bin/bash
+export LC_COLLATE=C
+shopt -s extglob
+
+name=$@
+if [[ $name =~ ^([A-Za-z])+([A-Za-z0-9\_])*$ && $name != "" ]]
+then 
+	echo "true"
+else 
+	echo "false"
+fi

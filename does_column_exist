@@ -1,0 +1,20 @@
+#!/bin/bash
+export LC_COLLATE=C
+shopt -s extglob
+
+path=$1
+column_name=$2
+ret=$(awk -v col_name=$column_name '
+    BEGIN{FS=" ";} 
+    {
+        if ($1==col_name)
+            print 1
+    }
+    END{}
+' $path)
+if [ "$ret" = 1 ]
+then
+    echo "true"
+else
+    echo "false"
+fi
